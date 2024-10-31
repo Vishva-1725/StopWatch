@@ -1,0 +1,68 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(assets/download.jpg);
+  margin-top: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-color: antiquewhite;
+  border-radius: 50px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  padding: 30px;
+  box-shadow: inset -2px -3px rgb(0, 0, 0.5);
+}
+
+.display{
+  font-size: 5rem;
+  font-family: monospace;
+  font-weight: bold;
+  color: hsl(0, 0%, 30%);
+  text-shadow: 2px 2px 2px hsla(0, 0%, 0%, 0.75);
+  margin-bottom: 25px;
+}
+
+.controls button{
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin: 5px;
+  min-width: 125px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  color: whitesmoke;
+  transition: background-color 0.5s ease;
+}
+
+.start-btn{
+  background-color: rgb(42, 241, 42);
+}
+
+.start-btn:hover{
+  background-color: rgb(17, 116, 1);
+}
+
+.stop-btn{
+  background-color: rgb(245, 41, 41);
+}
+
+.stop-btn:hover{
+  background-color: rgb(156, 26, 0);
+}
+
+.reset-btn{
+  background-color: rgb(41, 245, 228);
+}
+
+.reset-btn:hover{
+  background-color: rgb(9, 235, 163);
+}
